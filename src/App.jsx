@@ -1,15 +1,17 @@
 import React from "react";
-import HomePage from "./pages/HomePage";
-import GamePage from "./pages/GamePage";
-import Navbar from "./components/Navbar";
-import PokemonCard from "./components/PokemonCard";
-
+import HomePage from "./pages/HomePage.jsx";
+import GamePage from "./pages/GamePage.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <HomePage />
-      <PokemonCard />
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/game" element={<GamePage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
