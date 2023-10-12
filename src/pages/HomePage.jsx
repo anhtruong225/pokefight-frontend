@@ -1,4 +1,4 @@
-import React from "react";
+
 import Navbar from "../components/Navbar";
 import PokemonLogo from "../assets/pokemonlogo.png";
 import Pokemon5 from "../assets/pokemon5.png";
