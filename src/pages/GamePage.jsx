@@ -1,9 +1,11 @@
 import React from 'react'
 
-function PokemonDetails() {
+function GamePage() {
   return (
-    <div>PokemonDetails</div>
+    <div>
+      
+    </div>
   )
 }
 
-export default PokemonDetails
+export default GamePage
