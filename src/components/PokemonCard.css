@@ -25,6 +25,8 @@
   text-align: center;
   font-family: Arial, sans-serif;
   position: relative;
+  color: white;
+  height: max-content;
 }
 
 .pokemon-image-container {
@@ -94,24 +96,24 @@
 }
 
 .pokemon-attacks {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    background-color: #f2f2f2;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 10px;
-    width: 100%;
-  }
-  
-  .attack {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    padding: 10px;
-    background-color: #f2f2f2;
-    color: #000000;
-    border-radius: 5px;
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.attack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  color: #000000;
+  border-radius: 5px;
+}
