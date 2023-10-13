@@ -5,9 +5,33 @@
   height: 100vh;
 }
 
+.score {
+  padding: 2rem;
+  background-color: hsla(210, 11%, 15%, 0.75);
+  color: white;
+  font-size: 2rem;
+  width: fit-content;
+  border-radius: 5px;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+
 .versus-container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
+  gap: 2rem;
+}
+
+.versus-text {
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 10rem;
+  background-color: hsla(210, 11%, 15%, 0.75);
+  color: #fa5252;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
 }
